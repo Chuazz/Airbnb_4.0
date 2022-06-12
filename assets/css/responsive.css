@@ -1,0 +1,502 @@
+/* mobile */
+@media (max-width: 743px){
+    .s-m-b-8{
+        margin-bottom: 8px;
+    }
+
+    .header__search-ct{
+        margin-right: 0;
+    }
+
+    .search__body{
+        justify-content: center;
+        box-shadow: none;
+        border: none;
+        background: var(--fade__color);
+    }
+
+    .search__body:hover{
+        box-shadow: none;
+    }
+
+    .search-ct__body{
+        background: #f7f7f7;
+        border: none;
+        box-shadow: none;
+    }
+
+    .header__search-btn{
+        right: 57%;
+        top: 7%;
+        background: none;
+        font-size: 1.4rem;
+    }
+    
+    .header__search-icon{
+        color: var(--rgb_color--light-red);
+    }
+
+    .start__find{
+        text-align: center;
+        margin: 0;
+        background: #f7f7f7;
+    }
+
+    .search__all-btn{
+        font-size: 1.5rem;
+    }
+
+    .slider__ct{
+        padding-top: 135px;
+        margin-bottom: 555px;
+    }
+
+    .help__people{
+        padding: 0 24px;
+        font-size: 2.7rem;
+        height: 50%;
+    }
+
+    .slider__poster{
+        top: 111%;
+        height: 900px;
+    }
+
+    .ct__item{
+        font-size: 2.8rem;
+    }
+
+    .inspiration__hd{
+        font-size: 2.5rem;
+    }
+
+    .inspiration__title{
+        margin-bottom: 24px;
+    }
+
+    .inspiration__item{
+        width: 55vw;
+        height: 55vw;
+        padding: 0 8px;
+    }
+
+    .inspiration-item__dct{
+        height: 60%;
+    }
+
+    .exploring-experience{
+        padding: 48px 0 24px;
+    }
+
+    .exploring__item{
+        margin-bottom: 24px;
+    }
+
+    .exploring-item__ct{
+        font-size: 3.4rem;
+    }
+
+    .question__img{
+        height: 100%;
+        object-position: 50%;
+    }
+
+    .question__ct{
+        top: 3%;
+        left: 3%;
+        font-size: 4.3rem;
+    }
+
+    .question__btn{
+        left: 4%;
+        bottom: 4%;
+    }
+
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: start;
+    }
+
+    .license__item-hd{
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .license__item::before{
+        margin-left: -5px;
+    }
+
+    .license__item--mar{
+        margin: 0 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+    }
+
+    .footer__contact-item{
+        padding-right: 24px;
+        padding-left: 0;
+    }
+
+    #security{
+        margin-left: 24px;
+        margin-right: 24px;
+        bottom: 8%;
+    }
+}
+
+@media(max-width: 844px){
+    .calender__grid-item:last-child{
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 744px) and (max-width: 949px){
+    .m-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .order-1{
+        order: 1;
+    }
+
+    .m-m-l-16{
+        margin-left: 16px;
+    }
+
+    .m-m-b-16{
+        margin-bottom: 16px;
+    }
+
+    .fa-airbnb{
+        margin-right: 39px;
+    }
+
+    .headerAnimate{
+        animation: header 0.2s linear forwards;
+    }
+    
+    .header2Animate{
+        animation: header2 0.2s linear;
+    }
+
+    .header__search-ct{
+        margin-left: 12px;
+        margin-right: 0;
+    }
+
+    .nav__mid{
+        justify-content: center;
+        top: 100%;
+        transform-origin: top;
+    }
+
+    .nav__end-body{
+        margin: 12px 0;
+    }
+
+    .customer{
+        width: 100%;
+        transform-origin: 20% top;
+    }
+
+    .about__customer{
+        margin-top: 50px;
+    }
+
+    .customer__item h3{
+        font-size: 1.2rem;
+    }
+
+    .custom-btn__icon{
+        top: 15%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .slider__ct{
+        margin-bottom: 310px;
+    }
+
+    .slider__poster{
+        height: 600px;
+        top: 118%;
+    }
+
+    .help__people{
+        font-size: 3.2rem;
+        height: 38%;
+        margin-top: 16px;
+    }
+
+    .search__all-btn{
+        font-size: 1.5rem;
+    }
+
+    .inspiration__hd{
+        font-size: 2.5rem;
+    }
+
+    .inspiration__item{
+        width: 35vw;
+        height: 35vw;
+        padding: 0 8px;
+    }
+
+    .exploring-experience{
+        padding: 64px 0;
+    }
+
+    .exploring-item__ct{
+        font-size: 3.4rem;
+    }
+
+    .question__ct{
+        font-size: 4.9rem;
+    }
+
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .problem__body{
+        margin: 0 -8px;
+    }
+
+    .problem__item a{
+        padding: 0 8px;
+        font-size: 1.4rem;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: center;
+    }
+
+    .license__item-hd{
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 70px !important;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+    }
+
+    #security{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+/* PC low */
+@media (min-width: 950px) and (max-width: 1127px){
+    .l-m-l-16{
+        margin-left: 16px;
+    }
+
+    .l-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__search-icon{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .header__search-ct{
+        margin-right: 25px;
+    }
+
+    .nav__mid{
+        font-size: 1.5rem;
+        padding-left: 12px;
+        padding-right: 0;
+    }
+
+    .slider__ct{
+        margin-bottom: 320px;
+    }
+
+    .slider__poster{
+        height: 600px;
+        top: 123%;
+    }
+
+    .help__people{
+        font-size: 3rem;
+    }
+
+    .poster__ct{
+        bottom: 9%;
+        font-size: 32px;
+    }
+
+    .search__all-btn{
+        font-size: 1.5rem;
+    }
+    
+    .inspiration__title,
+    .place-item__hd{
+        margin-bottom: 16px;
+    }
+
+    .inspiration__hd{
+        font-size: 2.5rem;
+    }
+    
+    .inspiration-item__dct{
+        height: 150px;
+    }
+
+    .inspiration-item__name{
+        font-size: 2.3rem;
+    }
+
+    .exploring-experience{
+        margin: 0 -8px;
+    }
+
+    .exploring__item{
+        padding: 0 8px;
+    }
+
+    .exploring-item__ct{
+        font-size: 3.4rem;
+    }
+
+    .question__ct{
+        font-size: 4.9rem;
+    }
+
+    .footer__hr{
+        display: block;
+        border: 1px solid rgb(221, 221, 221);
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .problem__body{
+        margin: 0 -8px;
+    }
+
+    .problem__item a{
+        padding: 0 8px;
+        font-size: 1.4rem;
+    }
+
+    .license__body{
+        order: 1;
+    }
+
+    .license__ct{
+        justify-content: center;
+    }
+
+    .license__item-hd{
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .license__item--no-style{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .license__item--no-style::before{
+        display: none;
+    }
+
+    .footer__setting{
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer__setting-body{
+        margin-right: 70px !important;
+    }
+
+    .footer__setting-item{
+        margin-right: 40px;
+    }
+
+    .footer__contact-ct{
+        justify-content: flex-start;
+        margin-left: 26px;
+    }
+
+    .footer__contact-item{
+        padding-right: 28px;
+    }
+
+    #security{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
